@@ -1,0 +1,1225 @@
+
+📈 Running backtest for TECHM...
+
+📥 Loading data for TECHM (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 07:55:00    31.027215
+2025-07-07 07:56:00    42.820767
+2025-07-07 07:57:00    42.301470
+2025-07-07 07:58:00    40.201339
+2025-07-07 07:59:00    41.758307
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           0
+stochrsi_signal      1
+mom_signal          -1
+ema_signal          -1
+supertrend_signal   -1
+macd_signal         -1
+bbw_signal           1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal          -1
+ad_signal            1
+Name: 2025-07-07 07:59:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Trend: 0 BUY, 3 SELL, 0 HOLD → Voted: SELL
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 0, SELL: 2, HOLD: 2
+
+🎯 Final Signal based on category votes: HOLD (tie)
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 239
+Winning Trades: 89
+Win Rate (%): 37.24
+Total PnL: -98.7
+Average PnL per Trade: -0.41
+Max Drawdown: 99.5
+Sharpe Ratio: -0.15
+Capital per Trade: 10000
+Total Capital Used: 2390000
+Total Return (%): -0.0
+
+📊 Backtest Summary:
+Total Trades: 239
+Winning Trades: 89
+Win Rate (%): 37.24
+Total PnL: -98.7
+Average PnL per Trade: -0.41
+Max Drawdown: 99.5
+Sharpe Ratio: -0.15
+Capital per Trade: 10000
+Total Capital Used: 2390000
+Total Return (%): -0.0
+
+📊 Summary Metrics for TECHM
+Total Trades: 239
+Winning Trades: 89
+Win Rate (%): 37.24
+Total PnL: -98.7
+Average PnL per Trade: -0.41
+Max Drawdown: 99.5
+Sharpe Ratio: -0.15
+Capital per Trade: 10000
+Total Capital Used: 2390000
+Total Return (%): -0.0
+
+📈 Running backtest for BAJFINANCE...
+
+📥 Loading data for BAJFINANCE (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 06:16:00    81.845553
+2025-07-07 06:17:00    80.620109
+2025-07-07 06:18:00    78.101435
+2025-07-07 06:19:00    82.971272
+2025-07-07 06:20:00    83.661768
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal          -1
+stochrsi_signal     -1
+mom_signal           1
+ema_signal           1
+supertrend_signal    1
+macd_signal          1
+bbw_signal          -1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 06:20:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+Trend: 3 BUY, 0 SELL, 0 HOLD → Voted: BUY
+Volatility: 0 BUY, 2 SELL, 1 HOLD → Voted: SELL
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 1, SELL: 3, HOLD: 0
+
+🎯 Final Signal based on category votes: SELL
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 227
+Winning Trades: 88
+Win Rate (%): 38.77
+Total PnL: 5.55
+Average PnL per Trade: 0.02
+Max Drawdown: 26.65
+Sharpe Ratio: 0.01
+Capital per Trade: 10000
+Total Capital Used: 2270000
+Total Return (%): 0.0
+
+📊 Backtest Summary:
+Total Trades: 227
+Winning Trades: 88
+Win Rate (%): 38.77
+Total PnL: 5.55
+Average PnL per Trade: 0.02
+Max Drawdown: 26.65
+Sharpe Ratio: 0.01
+Capital per Trade: 10000
+Total Capital Used: 2270000
+Total Return (%): 0.0
+
+📊 Summary Metrics for BAJFINANCE
+Total Trades: 227
+Winning Trades: 88
+Win Rate (%): 38.77
+Total PnL: 5.55
+Average PnL per Trade: 0.02
+Max Drawdown: 26.65
+Sharpe Ratio: 0.01
+Capital per Trade: 10000
+Total Capital Used: 2270000
+Total Return (%): 0.0
+
+📈 Running backtest for RELIANCE...
+
+📥 Loading data for RELIANCE (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 06:57:00    70.581290
+2025-07-07 06:58:00    69.147180
+2025-07-07 06:59:00    64.887654
+2025-07-07 07:00:00    67.072073
+2025-07-07 07:01:00    67.072073
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal          -1
+stochrsi_signal     -1
+mom_signal           1
+ema_signal           1
+supertrend_signal    1
+macd_signal          1
+bbw_signal          -1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 07:01:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+Trend: 3 BUY, 0 SELL, 0 HOLD → Voted: BUY
+Volatility: 0 BUY, 2 SELL, 1 HOLD → Voted: SELL
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 1, SELL: 3, HOLD: 0
+
+🎯 Final Signal based on category votes: SELL
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 265
+Winning Trades: 117
+Win Rate (%): 44.15
+Total PnL: 28.4
+Average PnL per Trade: 0.11
+Max Drawdown: 25.0
+Sharpe Ratio: 0.05
+Capital per Trade: 10000
+Total Capital Used: 2650000
+Total Return (%): 0.0
+
+📊 Backtest Summary:
+Total Trades: 265
+Winning Trades: 117
+Win Rate (%): 44.15
+Total PnL: 28.4
+Average PnL per Trade: 0.11
+Max Drawdown: 25.0
+Sharpe Ratio: 0.05
+Capital per Trade: 10000
+Total Capital Used: 2650000
+Total Return (%): 0.0
+
+📊 Summary Metrics for RELIANCE
+Total Trades: 265
+Winning Trades: 117
+Win Rate (%): 44.15
+Total PnL: 28.4
+Average PnL per Trade: 0.11
+Max Drawdown: 25.0
+Sharpe Ratio: 0.05
+Capital per Trade: 10000
+Total Capital Used: 2650000
+Total Return (%): 0.0
+
+📈 Running backtest for GRASIM...
+
+📥 Loading data for GRASIM (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 06:33:00    44.699067
+2025-07-07 06:34:00    43.734553
+2025-07-07 06:35:00    45.629721
+2025-07-07 06:36:00    45.629721
+2025-07-07 06:37:00    41.324893
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           0
+stochrsi_signal      1
+mom_signal          -1
+ema_signal          -1
+supertrend_signal   -1
+macd_signal          1
+bbw_signal           1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 06:37:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Trend: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 0, SELL: 2, HOLD: 2
+
+🎯 Final Signal based on category votes: HOLD (tie)
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 282
+Winning Trades: 106
+Win Rate (%): 37.59
+Total PnL: -50.0
+Average PnL per Trade: -0.18
+Max Drawdown: 157.9
+Sharpe Ratio: -0.04
+Capital per Trade: 10000
+Total Capital Used: 2820000
+Total Return (%): -0.0
+
+📊 Backtest Summary:
+Total Trades: 282
+Winning Trades: 106
+Win Rate (%): 37.59
+Total PnL: -50.0
+Average PnL per Trade: -0.18
+Max Drawdown: 157.9
+Sharpe Ratio: -0.04
+Capital per Trade: 10000
+Total Capital Used: 2820000
+Total Return (%): -0.0
+
+📊 Summary Metrics for GRASIM
+Total Trades: 282
+Winning Trades: 106
+Win Rate (%): 37.59
+Total PnL: -50.0
+Average PnL per Trade: -0.18
+Max Drawdown: 157.9
+Sharpe Ratio: -0.04
+Capital per Trade: 10000
+Total Capital Used: 2820000
+Total Return (%): -0.0
+
+📈 Running backtest for HDFCBANK...
+
+📥 Loading data for HDFCBANK (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 06:35:00    32.295206
+2025-07-07 06:36:00    32.295206
+2025-07-07 06:37:00    36.726104
+2025-07-07 06:38:00    34.308117
+2025-07-07 06:39:00    32.575828
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           1
+stochrsi_signal      1
+mom_signal          -1
+ema_signal          -1
+supertrend_signal   -1
+macd_signal         -1
+bbw_signal           1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 06:39:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 2 BUY, 1 SELL, 0 HOLD → Voted: BUY
+Trend: 0 BUY, 3 SELL, 0 HOLD → Voted: SELL
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 1, SELL: 2, HOLD: 1
+
+🎯 Final Signal based on category votes: SELL
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 246
+Winning Trades: 103
+Win Rate (%): 41.87
+Total PnL: 3.5
+Average PnL per Trade: 0.01
+Max Drawdown: 27.9
+Sharpe Ratio: 0.01
+Capital per Trade: 10000
+Total Capital Used: 2460000
+Total Return (%): 0.0
+
+📊 Backtest Summary:
+Total Trades: 246
+Winning Trades: 103
+Win Rate (%): 41.87
+Total PnL: 3.5
+Average PnL per Trade: 0.01
+Max Drawdown: 27.9
+Sharpe Ratio: 0.01
+Capital per Trade: 10000
+Total Capital Used: 2460000
+Total Return (%): 0.0
+
+📊 Summary Metrics for HDFCBANK
+Total Trades: 246
+Winning Trades: 103
+Win Rate (%): 41.87
+Total PnL: 3.5
+Average PnL per Trade: 0.01
+Max Drawdown: 27.9
+Sharpe Ratio: 0.01
+Capital per Trade: 10000
+Total Capital Used: 2460000
+Total Return (%): 0.0
+
+📈 Running backtest for AXISBANK...
+
+📥 Loading data for AXISBANK (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 07:24:00    48.555644
+2025-07-07 07:25:00    58.536271
+2025-07-07 07:26:00    50.606316
+2025-07-07 07:27:00    47.165770
+2025-07-07 07:28:00    43.948059
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           0
+stochrsi_signal      1
+mom_signal          -1
+ema_signal          -1
+supertrend_signal    1
+macd_signal         -1
+bbw_signal           1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 07:28:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Trend: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 0, SELL: 2, HOLD: 2
+
+🎯 Final Signal based on category votes: HOLD (tie)
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 245
+Winning Trades: 84
+Win Rate (%): 34.29
+Total PnL: -36.1
+Average PnL per Trade: -0.15
+Max Drawdown: 41.9
+Sharpe Ratio: -0.09
+Capital per Trade: 10000
+Total Capital Used: 2450000
+Total Return (%): -0.0
+
+📊 Backtest Summary:
+Total Trades: 245
+Winning Trades: 84
+Win Rate (%): 34.29
+Total PnL: -36.1
+Average PnL per Trade: -0.15
+Max Drawdown: 41.9
+Sharpe Ratio: -0.09
+Capital per Trade: 10000
+Total Capital Used: 2450000
+Total Return (%): -0.0
+
+📊 Summary Metrics for AXISBANK
+Total Trades: 245
+Winning Trades: 84
+Win Rate (%): 34.29
+Total PnL: -36.1
+Average PnL per Trade: -0.15
+Max Drawdown: 41.9
+Sharpe Ratio: -0.09
+Capital per Trade: 10000
+Total Capital Used: 2450000
+Total Return (%): -0.0
+
+📈 Running backtest for ONGC...
+
+📥 Loading data for ONGC (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 06:54:00    34.116576
+2025-07-07 06:55:00    40.045549
+2025-07-07 06:56:00    35.977672
+2025-07-07 06:57:00    38.844849
+2025-07-07 06:58:00    38.230247
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           1
+stochrsi_signal     -1
+mom_signal          -1
+ema_signal          -1
+supertrend_signal   -1
+macd_signal          1
+bbw_signal           1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 06:58:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+Trend: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 0, SELL: 3, HOLD: 1
+
+🎯 Final Signal based on category votes: SELL
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 246
+Winning Trades: 95
+Win Rate (%): 38.62
+Total PnL: -10.2
+Average PnL per Trade: -0.04
+Max Drawdown: 9.91
+Sharpe Ratio: -0.13
+Capital per Trade: 10000
+Total Capital Used: 2460000
+Total Return (%): -0.0
+
+📊 Backtest Summary:
+Total Trades: 246
+Winning Trades: 95
+Win Rate (%): 38.62
+Total PnL: -10.2
+Average PnL per Trade: -0.04
+Max Drawdown: 9.91
+Sharpe Ratio: -0.13
+Capital per Trade: 10000
+Total Capital Used: 2460000
+Total Return (%): -0.0
+
+📊 Summary Metrics for ONGC
+Total Trades: 246
+Winning Trades: 95
+Win Rate (%): 38.62
+Total PnL: -10.2
+Average PnL per Trade: -0.04
+Max Drawdown: 9.91
+Sharpe Ratio: -0.13
+Capital per Trade: 10000
+Total Capital Used: 2460000
+Total Return (%): -0.0
+
+📈 Running backtest for BHARTIARTL...
+
+📥 Loading data for BHARTIARTL (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 07:29:00    38.992609
+2025-07-07 07:30:00    37.216101
+2025-07-07 07:31:00    32.910157
+2025-07-07 07:32:00    32.405438
+2025-07-07 07:33:00    36.594273
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           1
+stochrsi_signal      1
+mom_signal          -1
+ema_signal          -1
+supertrend_signal   -1
+macd_signal         -1
+bbw_signal           1
+atr_signal          -1
+donchian_signal      0
+vol_signal          -1
+obv_signal          -1
+ad_signal            1
+Name: 2025-07-07 07:33:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 2 BUY, 1 SELL, 0 HOLD → Voted: BUY
+Trend: 0 BUY, 3 SELL, 0 HOLD → Voted: SELL
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 1, SELL: 2, HOLD: 1
+
+🎯 Final Signal based on category votes: SELL
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 267
+Winning Trades: 106
+Win Rate (%): 39.7
+Total PnL: 29.9
+Average PnL per Trade: 0.11
+Max Drawdown: 59.6
+Sharpe Ratio: 0.04
+Capital per Trade: 10000
+Total Capital Used: 2670000
+Total Return (%): 0.0
+
+📊 Backtest Summary:
+Total Trades: 267
+Winning Trades: 106
+Win Rate (%): 39.7
+Total PnL: 29.9
+Average PnL per Trade: 0.11
+Max Drawdown: 59.6
+Sharpe Ratio: 0.04
+Capital per Trade: 10000
+Total Capital Used: 2670000
+Total Return (%): 0.0
+
+📊 Summary Metrics for BHARTIARTL
+Total Trades: 267
+Winning Trades: 106
+Win Rate (%): 39.7
+Total PnL: 29.9
+Average PnL per Trade: 0.11
+Max Drawdown: 59.6
+Sharpe Ratio: 0.04
+Capital per Trade: 10000
+Total Capital Used: 2670000
+Total Return (%): 0.0
+
+📈 Running backtest for CIPLA...
+
+📥 Loading data for CIPLA (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 06:26:00    46.073235
+2025-07-07 06:27:00    43.409000
+2025-07-07 06:28:00    58.330046
+2025-07-07 06:29:00    50.803683
+2025-07-07 06:30:00    52.455337
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           0
+stochrsi_signal     -1
+mom_signal           1
+ema_signal          -1
+supertrend_signal    1
+macd_signal          1
+bbw_signal          -1
+atr_signal           1
+donchian_signal      0
+vol_signal          -1
+obv_signal           1
+ad_signal           -1
+Name: 2025-07-07 06:30:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Trend: 2 BUY, 1 SELL, 0 HOLD → Voted: BUY
+Volatility: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 1, SELL: 1, HOLD: 2
+
+🎯 Final Signal based on category votes: HOLD
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 270
+Winning Trades: 105
+Win Rate (%): 38.89
+Total PnL: -35.9
+Average PnL per Trade: -0.13
+Max Drawdown: 50.1
+Sharpe Ratio: -0.07
+Capital per Trade: 10000
+Total Capital Used: 2700000
+Total Return (%): -0.0
+
+📊 Backtest Summary:
+Total Trades: 270
+Winning Trades: 105
+Win Rate (%): 38.89
+Total PnL: -35.9
+Average PnL per Trade: -0.13
+Max Drawdown: 50.1
+Sharpe Ratio: -0.07
+Capital per Trade: 10000
+Total Capital Used: 2700000
+Total Return (%): -0.0
+
+📊 Summary Metrics for CIPLA
+Total Trades: 270
+Winning Trades: 105
+Win Rate (%): 38.89
+Total PnL: -35.9
+Average PnL per Trade: -0.13
+Max Drawdown: 50.1
+Sharpe Ratio: -0.07
+Capital per Trade: 10000
+Total Capital Used: 2700000
+Total Return (%): -0.0
+
+📈 Running backtest for SBILIFE...
+
+📥 Loading data for SBILIFE (minute)...
+⚙️ Generating signals for strategy: intraday
+
+Generating signals for strategy: INTRADAY
+Loaded strategy parameters: {'ema': (9, 21), 'rsi': {'length': 14, 'oversold': 40, 'overbought': 60}, 'stochrsi': {'length': 14, 'overbought': 60, 'oversold': 40}, 'supertrend': {'period': 7, 'multiplier': 3}, 'bbw': 14, 'atr': 14, 'vol_ma': 14, 'donchian': {'lower_length': 20, 'upper_length': 20}, 'obv': {'ma_period': 14}, 'macd': {'fast': 12, 'slow': 26, 'signal': 9}, 'returns': {'periods': [1, 5, 10], 'threshold': 0.005}}
+
+Calculating Momentum Indicators...
+RSI values:
+timestamp
+2025-07-07 09:55:00    63.584868
+2025-07-07 09:56:00    54.387257
+2025-07-07 09:57:00    60.535029
+2025-07-07 09:58:00    44.417176
+2025-07-07 09:59:00    52.186194
+Name: rsi, dtype: float64
+RSI signal generated.
+
+Calculating Stochastic RSI...
+Stochastic RSI signal generated.
+
+Calculating Momentum...
+Momentum signal generated.
+
+Calculating Trend Indicators...
+
+Calculating EMA Crossover...
+EMA crossover signal generated.
+
+Calculating Supertrend...
+Supertrend signal generated.
+
+Calculating MACD...
+MACD signal generated.
+
+Calculating Volatility Indicators...
+
+Calculating Bollinger Bands Width (BBW)...
+Bollinger Band Width signal generated.
+Bollinger Bands Width calculation completed.
+
+Calculating Average True Range (ATR)...
+ATR signal generated.
+
+Calculating Donchian Channel Breakout...
+Donchian columns: ['DCL_20_20', 'DCM_20_20', 'DCU_20_20']
+Donchian signal generated using breakout from previous band.
+Donchian Channel calculation completed.
+
+Calculating Volume Indicators...
+Volume MA signal generated.
+
+Calculating On-Balance Volume (OBV)...
+OBV signal generated using 14-period moving average.
+Accumulation/Distribution signal generated.
+
+All _signal columns and their latest values:
+rsi_signal           0
+stochrsi_signal      1
+mom_signal          -1
+ema_signal           1
+supertrend_signal    1
+macd_signal         -1
+bbw_signal           1
+atr_signal           1
+donchian_signal      0
+vol_signal          -1
+obv_signal          -1
+ad_signal            1
+Name: 2025-07-07 09:59:00, dtype: int64
+
+📊 Applying Category-Wise Majority Voting System on latest data...
+Momentum: 1 BUY, 1 SELL, 1 HOLD → Voted: HOLD
+Trend: 2 BUY, 1 SELL, 0 HOLD → Voted: BUY
+Volatility: 2 BUY, 0 SELL, 1 HOLD → Voted: BUY
+Volume: 1 BUY, 2 SELL, 0 HOLD → Voted: SELL
+
+✅ Category Votes — BUY: 2, SELL: 1, HOLD: 1
+
+🎯 Final Signal based on category votes: BUY
+📈 Running backtest...
+
+📈 Running backtest...
+
+📊 Backtest Summary:
+Total Trades: 245
+Winning Trades: 92
+Win Rate (%): 37.55
+Total PnL: -55.5
+Average PnL per Trade: -0.23
+Max Drawdown: 69.4
+Sharpe Ratio: -0.08
+Capital per Trade: 10000
+Total Capital Used: 2450000
+Total Return (%): -0.0
+
+📊 Backtest Summary:
+Total Trades: 245
+Winning Trades: 92
+Win Rate (%): 37.55
+Total PnL: -55.5
+Average PnL per Trade: -0.23
+Max Drawdown: 69.4
+Sharpe Ratio: -0.08
+Capital per Trade: 10000
+Total Capital Used: 2450000
+Total Return (%): -0.0
+
+📊 Summary Metrics for SBILIFE
+Total Trades: 245
+Winning Trades: 92
+Win Rate (%): 37.55
+Total PnL: -55.5
+Average PnL per Trade: -0.23
+Max Drawdown: 69.4
+Sharpe Ratio: -0.08
+Capital per Trade: 10000
+Total Capital Used: 2450000
+Total Return (%): -0.0
+
+📈 All Backtest Summaries:
+   Total Trades  Winning Trades  ...  Total Return (%)      Symbol
+7           267             106  ...               0.0  BHARTIARTL
+2           265             117  ...               0.0    RELIANCE
+1           227              88  ...               0.0  BAJFINANCE
+4           246             103  ...               0.0    HDFCBANK
+6           246              95  ...              -0.0        ONGC
+8           270             105  ...              -0.0       CIPLA
+5           245              84  ...              -0.0    AXISBANK
+3           282             106  ...              -0.0      GRASIM
+9           245              92  ...              -0.0     SBILIFE
+0           239              89  ...              -0.0       TECHM
+
+[10 rows x 11 columns]
